@@ -1,15 +1,25 @@
+@font-face {
+    font-family:"Cy Grotesk Grand Dark" ;
+    src: url(fonts/cy-grotesk-grand-dark.otf);
+}
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
 .a {
     padding-top: 5%;
     text-align: center;
     background-color: none;
 }
 .b {
-
     text-align: center;
-    
     padding-left: 10px;
     padding-bottom: 10px;
       text-decoration: none;
+      
+      
 }
 
 .img1 {
@@ -17,9 +27,12 @@
     text-align: left;
     
 }
-a {
+.b a {
     color: whitesmoke;
     text-decoration: none;
+}
+.b a:hover {
+    color: darkred;
 }
 .bg-black {
     background-color: black;
@@ -36,3 +49,115 @@ a {
     padding-left: 38px;
  }
  
+.text3 {
+    
+    padding-left: 38px;
+    text-align: right;
+}
+
+.top {
+    margin-top: 60px;
+    
+}
+.text4 {
+    margin-left: 900px;
+    margin-bottom: -30px;
+    font-size: 50px;
+    font-family:"Cy Grotesk Grand Dark";
+    display: flex;
+    
+}
+
+.img3 {
+    text-align: left;
+}
+
+span {
+    color: white;
+}
+
+.grid1 {
+    display: grid;
+}
+
+.m {
+    border: solid;
+    border-color: white;
+}
+
+
+a:hover {
+    color: darkred;
+}
+.top1 {
+    margin-top: 60px;
+    
+}
+.container {
+    color: white;
+          display: flex;  
+          margin-right: 130px;
+}
+.text10 {
+    color: white;
+    font-family:Cy Grotesk Grand Dark;
+    font-size: 75px;
+     
+    margin-right: 50px;
+     border: solid;
+      border-color: white;
+       border-width: 1px;
+         width: 450px; 
+         height: 300px;
+         margin-left: 130px;
+}
+
+.text20 {
+    color: white;
+    font-family:Cy Grotesk Grand Dark;
+    font-size: 75px;
+    margin-right: 50px;
+    
+     border: solid;
+      border-color: white;
+       border-width: 1px;
+         width: 450px; 
+         height: 300px;
+}
+.text30 {
+    color: white;
+    font-family:Cy Grotesk Grand Dark;
+     font-size: 75px;
+     margin-right: 50px;
+     border: solid;
+      border-color: white;
+       border-width: 1px;
+         width: 450px; 
+         height: 300px;
+}
+
+.text40 {
+    color: white;
+    font-family:Cy Grotesk Grand Dark;
+    font-size: 75px;
+    margin-right: 50px;
+    
+     border: solid;
+      border-color: white;
+       border-width: 1px;
+         width: 450px; 
+         height: 300px;
+}
+
+
+
+.text10, .text20, .text30, .text40 h1 {
+    text-align: right;
+}
+
+
+
+.text10, .text20, .text30, .text40 h3 {
+    font-size: 50px;
+   
+}
