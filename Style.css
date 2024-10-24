@@ -33,6 +33,7 @@
 }
 .b a:hover {
     color: darkred;
+    transition: 0.5s ease;
 }
 .bg-black {
     background-color: black;
@@ -160,4 +161,207 @@ a:hover {
 .text10, .text20, .text30, .text40 h3 {
     font-size: 50px;
    
+}
+
+.c {
+    list-style: none;
+    color: white;
+    font-size: 26px;
+    
+    width: 1200px;
+    height: 40px;
+    font-family: "Avenir Next Cyr",sans-serif;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.c a {
+    text-decoration: none;
+    color: white;
+
+ }
+
+.c a:hover {
+    color: darkred;
+    transition: 0.5s ease;
+  }
+
+.c li {
+    display: inline;
+    margin: 25px;
+  }
+
+  header {
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  body {
+    background-color: black;
+    color: white;
+    display: grid;
+    justify-content: center;
+}
+
+.logo{
+    width: 200px;
+ 
+    margin-right: 80px;   
+    margin-top: 50px;
+}
+
+
+
+header {
+   
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    
+}
+
+.spisokshapka {
+    list-style: none;
+    color: white;
+    font-size: 26px;
+  
+    width: 1200px;
+    height: 40px;
+    font-family: "Avenir Next Cyr",sans-serif;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.spisokshapka a {
+    color: white;
+    text-decoration: none;
+}
+
+.spisokshapka a:hover {
+    color: rgb(107, 17, 17);
+    transition: 0.5s ease;
+    
+    
+}
+
+.spisokshapka li {
+    display: inline;
+    margin: 25px;
+}
+
+
+.pr {
+   width: 50%;
+}
+
+
+
+.container {
+    width: 1920px;
+    border: solid;
+}
+
+ .containerinfo { 
+    width: 1920px;
+    height: 1080px;
+    border: solid;
+   
+    display: grid;
+    justify-content: center;
+}
+
+
+.texttitle {   
+    width: 1920px;
+    height: 400px;
+    border: solid;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.iep { 
+    width: 700px; 
+    height: 400px;
+    border: solid;
+    font-size: 90px;
+    font-family: 'Cy Grotesk Grand Dark';
+    margin-right: 100px;
+    
+    
+}
+
+.iep p {
+    color: rgb(165, 6, 48);
+    margin-top: 0px;
+}
+
+.iep span {
+    color: white;
+}
+
+.ocompanii {
+    width: 400px;
+    height: 350px;
+    border: solid;
+    font-size: 24px;
+    font-family: "Avenir Next Cyr",sans-serif;
+}
+
+.vidosik {
+    border: solid;
+    width: 800px;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.sr {
+    width: 500px; 
+    height: 200px;
+    border: solid;
+   
+    font-size: 100px;
+    font-family: 'Cy Grotesk Grand Dark';
+    position: absolute;
+    margin-left: 763px;
+    margin-top: 65px;
+    line-height: 95%;
+}
+
+.sr p { 
+    
+    color:white;
+    margin-top: 0px;
+}
+ 
+.test table {
+    text-align: center;
+    font-size: 69px;
+    border-spacing: 15px 1rem;
+}
+
+.family {
+    font-size: 50px;
+    
+   margin-left: 32px;
+   
+    margin-bottom: 300px;
+}
+
+.family h1 {
+    font-family:"Cy Grotesk Grand Dark";
+}
+
+.family button {
+    background-color: white;
+}
+
+.flex {
+    display: flex;
 }
